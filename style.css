@@ -35,6 +35,7 @@ nav ul {
   max-width: 500px;
   display: block;
   margin: 0 auto;
+  padding: 70px;
 }
 
 .hero {
@@ -42,4 +43,37 @@ nav ul {
   background-size: cover;
   height: 850px;
   width: 100%;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Roboto';
+  text-align: center;
+  font-weight: bold;
+  padding: 60px 25px 25px 25px;
+}
+
+h3 {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+section {
+  background-color: #ddd;
+}
+
+.column {
+  float: left;
+  width: 33.333%;
+}
+
+.food img {
+  width: 100%;
+}
+
+.column-inner {
+  padding: 20px;
 }
